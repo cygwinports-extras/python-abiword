@@ -1,0 +1,4 @@
+category: Gnome Python
+requires: cygwin abiword libgcc1 libglib2.0_0 libgtk2.0_0 libstdc++6 python python-gobject2 python-gtk2
+sdesc: "Python AbiWord bindings"
+ldesc: "Python bindings for the AbiWord word processor widget."
