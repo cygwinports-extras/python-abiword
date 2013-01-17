@@ -1,5 +1,8 @@
 inherit pygtk
 
+NAME="python-abiword"
+VERSION=0.8.0
+RELEASE=3
 CATEGORY="Python"
 SUMMARY="Python AbiWord bindings"
 DESCRIPTION="Python bindings for the AbiWord word processor widget."
@@ -9,5 +12,3 @@ SRC_URI="http://www.abisource.com/downloads/${ORIG_PN}/${PV}/${ORIG_PN}-${PV}.ta
 REQUIRES="python-gtk2.0"
 
 ACLOCAL_FLAGS="-I ."
-
-KEEP_LA_FILES="none"
